@@ -126,7 +126,7 @@ Successfully created VLAN 10 (SALES) and VLAN 20 (HR), assigned the appropriate 
 ## 14. Related Files
 
 * `topology/` → Network topology and Packet Tracer lab file
-* `configuration/` → SW1 VLAN configuration
+* `configuration/` → Switch VLAN configuration
 * `verification/` → VLAN verification and connectivity test
 * `screenshots/` → Visual evidence of the lab
 
