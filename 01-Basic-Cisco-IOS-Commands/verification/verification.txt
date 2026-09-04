@@ -1,1 +1,21 @@
+# Verification Evidence
 
+## 1. Interface and VLAN Verification
+
+Commands:
+- show ip interface brief
+- show vlan brief
+- show running-config
+
+Screenshot:
+screenshots/02-interface-vlan-verification.png
+
+
+## 2. Connectivity Test
+
+Test:
+- PC1 → PC2
+- Ping successful
+
+Screenshot:
+screenshots/04-ping-test.png
