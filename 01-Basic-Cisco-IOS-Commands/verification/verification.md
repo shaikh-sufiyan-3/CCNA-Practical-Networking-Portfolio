@@ -8,7 +8,7 @@ Commands:
 - show running-config
 
 Screenshot:
-screenshots/01-Basic-Cisco-IOS-Commands/screenshots/02_verification.png
+01-Basic-Cisco-IOS-Commands/screenshots/02_verification.png
 
 
 ## 2. Connectivity Test
@@ -18,4 +18,4 @@ Test:
 - Ping successful
 
 Screenshot:
-screenshots/01-Basic-Cisco-IOS-Commands/screenshots/03_ping-success.png
+01-Basic-Cisco-IOS-Commands/screenshots/03_ping-success.png
