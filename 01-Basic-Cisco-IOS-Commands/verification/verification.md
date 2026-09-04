@@ -18,4 +18,4 @@ Test:
 - Ping successful
 
 Screenshot:
-screenshots/04-ping-test.png
+screenshots/01-Basic-Cisco-IOS-Commands/screenshots/03_ping-success.png
