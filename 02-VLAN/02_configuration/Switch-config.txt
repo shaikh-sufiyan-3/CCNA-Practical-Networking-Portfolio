@@ -1,4 +1,4 @@
-hostname SW1
+hostname Switch
 
 vlan 10
  name SALES
