@@ -1,1 +1,22 @@
 
+hostname SW1
+!
+vlan 10
+name SALES
+!
+vlan 20
+name HR
+!
+interface FastEthernet0/1
+switchport mode access
+switchport access vlan 10
+!
+interface FastEthernet0/2
+switchport mode access
+switchport access vlan 20
+!
+interface FastEthernet0/24
+switchport mode trunk
+!
+end
+
