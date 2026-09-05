@@ -1,0 +1,19 @@
+!
+version 15.0
+!
+hostname SW2
+!
+vlan 10
+name SALES
+!
+interface FastEthernet0/1
+switchport mode access
+switchport access vlan 10
+!
+interface range FastEthernet0/23 - 24
+channel-group 1 mode active
+!
+interface Port-channel1
+switchport mode trunk
+!
+end
