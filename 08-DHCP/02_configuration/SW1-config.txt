@@ -1,0 +1,17 @@
+!
+version 15.0
+!
+hostname SW1
+!
+vlan 10
+name SALES
+!
+interface FastEthernet0/1
+switchport mode access
+switchport access vlan 10
+!
+interface FastEthernet0/24
+switchport mode access
+switchport access vlan 10
+!
+end
