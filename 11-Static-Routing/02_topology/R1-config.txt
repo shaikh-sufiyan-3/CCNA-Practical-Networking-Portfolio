@@ -1,4 +1,4 @@
-```text
+
 !
 version 15.0
 !
@@ -15,4 +15,4 @@ interface GigabitEthernet0/1
 ip route 192.168.20.0 255.255.255.0 10.0.0.2
 !
 end
-```
+
