@@ -1,0 +1,12 @@
+```text
+!
+version 15.0
+!
+hostname R2
+!
+interface GigabitEthernet0/0
+ ip address 203.0.113.1 255.255.255.252
+ no shutdown
+!
+end
+```
