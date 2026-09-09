@@ -1,0 +1,31 @@
+```text
+!
+version 15.0
+!
+hostname SW1
+!
+vlan 10
+ name MANAGEMENT
+!
+interface FastEthernet0/1
+ switchport mode access
+ switchport access vlan 10
+!
+interface Vlan10
+ ip address 192.168.10.2 255.255.255.0
+ no shutdown
+!
+ip domain-name ccna.local
+!
+username admin privilege 15 secret Cisco123!
+!
+crypto key generate rsa
+!
+ip ssh version 2
+!
+line vty 0 15
+ login local
+ transport input ssh
+!
+end
+```
